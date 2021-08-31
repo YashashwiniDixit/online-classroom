@@ -47,7 +47,10 @@ const Header = ({ children }) => {
               alt="Classroom"
             /> */}
             <Typography variant="h6" className={classes.title}>
-              Online Classroom
+              Online Classroom: 
+            </Typography>
+            <Typography variant="h6" className={classes.title}>
+              <a href={"https://online-meeting-room.herokuapp.com"}>Initiate meetings here</a>
             </Typography>
           </div>
           <div className={classes.header__wrapper__right}>
