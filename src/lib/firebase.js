@@ -4,6 +4,7 @@ import "firebase/firestore";
 const firebaseConfig = {
   apiKey: "AIzaSyBUjYIBtEKqI_XSw7LCJ93kDeBlkvZkvZI",
   authDomain: "online-class-4e218.firebaseapp.com",
+  databaseURL: "https://online-class-4e218-default-rtdb.asia-southeast1.firebasedatabase.app",
   projectId: "online-class-4e218",
   storageBucket: "online-class-4e218.appspot.com",
   messagingSenderId: "489947391901",

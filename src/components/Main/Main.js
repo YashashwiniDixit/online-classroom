@@ -5,6 +5,7 @@ import "./style.css";
 import firebase from "firebase";
 import { useLocalContext } from "../../context/context";
 import { Announcment } from "..";
+
 const Main = ({ classData }) => {
   const { loggedInMail } = useLocalContext();
 
@@ -63,7 +64,7 @@ const Main = ({ classData }) => {
         </div>
         <div className="main__announce">
           <div className="main__status">
-            <p>Upcoming</p>
+            <p>Pending Work</p>
             <p className="main__subText">No work due</p>
           </div>
           <div className="main__announcements">
